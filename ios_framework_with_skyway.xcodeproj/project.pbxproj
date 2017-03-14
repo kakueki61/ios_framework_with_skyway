@@ -7,6 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		58B758F21E780A17001645BA /* RTCAudioSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 58B758C51E780A17001645BA /* RTCAudioSource.h */; };
+		58B758F31E780A17001645BA /* RTCAudioTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = 58B758C61E780A17001645BA /* RTCAudioTrack.h */; };
+		58B758F41E780A17001645BA /* RTCAVFoundationVideoSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 58B758C71E780A17001645BA /* RTCAVFoundationVideoSource.h */; };
+		58B758F51E780A17001645BA /* RTCDataChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = 58B758C81E780A17001645BA /* RTCDataChannel.h */; };
+		58B758F61E780A17001645BA /* RTCEAGLVideoView.h in Headers */ = {isa = PBXBuildFile; fileRef = 58B758C91E780A17001645BA /* RTCEAGLVideoView.h */; };
+		58B758F71E780A17001645BA /* RTCFileLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 58B758CA1E780A17001645BA /* RTCFileLogger.h */; };
+		58B758F81E780A17001645BA /* RTCI420Frame.h in Headers */ = {isa = PBXBuildFile; fileRef = 58B758CB1E780A17001645BA /* RTCI420Frame.h */; };
+		58B758F91E780A17001645BA /* RTCICECandidate.h in Headers */ = {isa = PBXBuildFile; fileRef = 58B758CC1E780A17001645BA /* RTCICECandidate.h */; };
+		58B758FA1E780A17001645BA /* RTCICEServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 58B758CD1E780A17001645BA /* RTCICEServer.h */; };
+		58B758FB1E780A17001645BA /* RTCLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = 58B758CE1E780A17001645BA /* RTCLogging.h */; };
+		58B758FC1E780A17001645BA /* RTCMediaConstraints.h in Headers */ = {isa = PBXBuildFile; fileRef = 58B758CF1E780A17001645BA /* RTCMediaConstraints.h */; };
+		58B758FD1E780A17001645BA /* RTCMediaSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 58B758D01E780A17001645BA /* RTCMediaSource.h */; };
+		58B758FE1E780A17001645BA /* RTCMediaStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 58B758D11E780A17001645BA /* RTCMediaStream.h */; };
+		58B758FF1E780A17001645BA /* RTCMediaStreamTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = 58B758D21E780A17001645BA /* RTCMediaStreamTrack.h */; };
+		58B759001E780A17001645BA /* RTCNSGLVideoView.h in Headers */ = {isa = PBXBuildFile; fileRef = 58B758D31E780A17001645BA /* RTCNSGLVideoView.h */; };
+		58B759011E780A17001645BA /* RTCOpenGLVideoRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 58B758D41E780A17001645BA /* RTCOpenGLVideoRenderer.h */; };
+		58B759021E780A17001645BA /* RTCPair.h in Headers */ = {isa = PBXBuildFile; fileRef = 58B758D51E780A17001645BA /* RTCPair.h */; };
+		58B759031E780A17001645BA /* RTCPeerConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 58B758D61E780A17001645BA /* RTCPeerConnection.h */; };
+		58B759041E780A17001645BA /* RTCPeerConnectionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 58B758D71E780A17001645BA /* RTCPeerConnectionDelegate.h */; };
+		58B759051E780A17001645BA /* RTCPeerConnectionFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 58B758D81E780A17001645BA /* RTCPeerConnectionFactory.h */; };
+		58B759061E780A17001645BA /* RTCPeerConnectionInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 58B758D91E780A17001645BA /* RTCPeerConnectionInterface.h */; };
+		58B759071E780A17001645BA /* RTCSessionDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = 58B758DA1E780A17001645BA /* RTCSessionDescription.h */; };
+		58B759081E780A17001645BA /* RTCSessionDescriptionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 58B758DB1E780A17001645BA /* RTCSessionDescriptionDelegate.h */; };
+		58B759091E780A17001645BA /* RTCStatsDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 58B758DC1E780A17001645BA /* RTCStatsDelegate.h */; };
+		58B7590A1E780A17001645BA /* RTCStatsReport.h in Headers */ = {isa = PBXBuildFile; fileRef = 58B758DD1E780A17001645BA /* RTCStatsReport.h */; };
+		58B7590B1E780A17001645BA /* RTCTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 58B758DE1E780A17001645BA /* RTCTypes.h */; };
+		58B7590C1E780A17001645BA /* RTCVideoCapturer.h in Headers */ = {isa = PBXBuildFile; fileRef = 58B758DF1E780A17001645BA /* RTCVideoCapturer.h */; };
+		58B7590D1E780A17001645BA /* RTCVideoRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 58B758E01E780A17001645BA /* RTCVideoRenderer.h */; };
+		58B7590E1E780A17001645BA /* RTCVideoSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 58B758E11E780A17001645BA /* RTCVideoSource.h */; };
+		58B7590F1E780A17001645BA /* RTCVideoTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = 58B758E21E780A17001645BA /* RTCVideoTrack.h */; };
+		58B759101E780A17001645BA /* SKWCallOption.h in Headers */ = {isa = PBXBuildFile; fileRef = 58B758E31E780A17001645BA /* SKWCallOption.h */; };
+		58B759111E780A17001645BA /* SKWConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 58B758E41E780A17001645BA /* SKWConnection.h */; };
+		58B759121E780A17001645BA /* SKWConnectOption.h in Headers */ = {isa = PBXBuildFile; fileRef = 58B758E51E780A17001645BA /* SKWConnectOption.h */; };
+		58B759131E780A17001645BA /* SKWDataChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = 58B758E61E780A17001645BA /* SKWDataChannel.h */; };
+		58B759141E780A17001645BA /* SKWDataConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 58B758E71E780A17001645BA /* SKWDataConnection.h */; };
+		58B759151E780A17001645BA /* SKWIceConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 58B758E81E780A17001645BA /* SKWIceConfig.h */; };
+		58B759161E780A17001645BA /* SKWMediaConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 58B758E91E780A17001645BA /* SKWMediaConnection.h */; };
+		58B759171E780A17001645BA /* SKWMediaConstraints.h in Headers */ = {isa = PBXBuildFile; fileRef = 58B758EA1E780A17001645BA /* SKWMediaConstraints.h */; };
+		58B759181E780A17001645BA /* SKWMediaStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 58B758EB1E780A17001645BA /* SKWMediaStream.h */; };
+		58B759191E780A17001645BA /* SKWNavigator.h in Headers */ = {isa = PBXBuildFile; fileRef = 58B758EC1E780A17001645BA /* SKWNavigator.h */; };
+		58B7591A1E780A17001645BA /* SKWPeer.h in Headers */ = {isa = PBXBuildFile; fileRef = 58B758ED1E780A17001645BA /* SKWPeer.h */; };
+		58B7591B1E780A17001645BA /* SKWPeerCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 58B758EE1E780A17001645BA /* SKWPeerCommon.h */; };
+		58B7591C1E780A17001645BA /* SKWPeerError.h in Headers */ = {isa = PBXBuildFile; fileRef = 58B758EF1E780A17001645BA /* SKWPeerError.h */; };
+		58B7591D1E780A17001645BA /* SKWPeerOption.h in Headers */ = {isa = PBXBuildFile; fileRef = 58B758F01E780A17001645BA /* SKWPeerOption.h */; };
+		58B7591E1E780A17001645BA /* SKWVideo.h in Headers */ = {isa = PBXBuildFile; fileRef = 58B758F11E780A17001645BA /* SKWVideo.h */; };
 		58C38C571E69669700B6F9AE /* ios_framework_with_skyway.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58C38C4D1E69669700B6F9AE /* ios_framework_with_skyway.framework */; };
 		58C38C5C1E69669700B6F9AE /* ios_framework_with_skywayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C38C5B1E69669700B6F9AE /* ios_framework_with_skywayTests.swift */; };
 		58C38C5E1E69669700B6F9AE /* ios_framework_with_skyway.h in Headers */ = {isa = PBXBuildFile; fileRef = 58C38C501E69669700B6F9AE /* ios_framework_with_skyway.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -28,6 +73,51 @@
 /* Begin PBXFileReference section */
 		21397BFB7AD5D15979CD65B6 /* Pods-ios_framework_with_skywayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios_framework_with_skywayTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios_framework_with_skywayTests/Pods-ios_framework_with_skywayTests.release.xcconfig"; sourceTree = "<group>"; };
 		36BEFA8EA77D04B767C93BC0 /* Pods-ios_framework_with_skyway.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios_framework_with_skyway.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios_framework_with_skyway/Pods-ios_framework_with_skyway.debug.xcconfig"; sourceTree = "<group>"; };
+		58B758C51E780A17001645BA /* RTCAudioSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCAudioSource.h; sourceTree = "<group>"; };
+		58B758C61E780A17001645BA /* RTCAudioTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCAudioTrack.h; sourceTree = "<group>"; };
+		58B758C71E780A17001645BA /* RTCAVFoundationVideoSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCAVFoundationVideoSource.h; sourceTree = "<group>"; };
+		58B758C81E780A17001645BA /* RTCDataChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCDataChannel.h; sourceTree = "<group>"; };
+		58B758C91E780A17001645BA /* RTCEAGLVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCEAGLVideoView.h; sourceTree = "<group>"; };
+		58B758CA1E780A17001645BA /* RTCFileLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCFileLogger.h; sourceTree = "<group>"; };
+		58B758CB1E780A17001645BA /* RTCI420Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCI420Frame.h; sourceTree = "<group>"; };
+		58B758CC1E780A17001645BA /* RTCICECandidate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCICECandidate.h; sourceTree = "<group>"; };
+		58B758CD1E780A17001645BA /* RTCICEServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCICEServer.h; sourceTree = "<group>"; };
+		58B758CE1E780A17001645BA /* RTCLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCLogging.h; sourceTree = "<group>"; };
+		58B758CF1E780A17001645BA /* RTCMediaConstraints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCMediaConstraints.h; sourceTree = "<group>"; };
+		58B758D01E780A17001645BA /* RTCMediaSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCMediaSource.h; sourceTree = "<group>"; };
+		58B758D11E780A17001645BA /* RTCMediaStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCMediaStream.h; sourceTree = "<group>"; };
+		58B758D21E780A17001645BA /* RTCMediaStreamTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCMediaStreamTrack.h; sourceTree = "<group>"; };
+		58B758D31E780A17001645BA /* RTCNSGLVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCNSGLVideoView.h; sourceTree = "<group>"; };
+		58B758D41E780A17001645BA /* RTCOpenGLVideoRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCOpenGLVideoRenderer.h; sourceTree = "<group>"; };
+		58B758D51E780A17001645BA /* RTCPair.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCPair.h; sourceTree = "<group>"; };
+		58B758D61E780A17001645BA /* RTCPeerConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCPeerConnection.h; sourceTree = "<group>"; };
+		58B758D71E780A17001645BA /* RTCPeerConnectionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCPeerConnectionDelegate.h; sourceTree = "<group>"; };
+		58B758D81E780A17001645BA /* RTCPeerConnectionFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCPeerConnectionFactory.h; sourceTree = "<group>"; };
+		58B758D91E780A17001645BA /* RTCPeerConnectionInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCPeerConnectionInterface.h; sourceTree = "<group>"; };
+		58B758DA1E780A17001645BA /* RTCSessionDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCSessionDescription.h; sourceTree = "<group>"; };
+		58B758DB1E780A17001645BA /* RTCSessionDescriptionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCSessionDescriptionDelegate.h; sourceTree = "<group>"; };
+		58B758DC1E780A17001645BA /* RTCStatsDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCStatsDelegate.h; sourceTree = "<group>"; };
+		58B758DD1E780A17001645BA /* RTCStatsReport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCStatsReport.h; sourceTree = "<group>"; };
+		58B758DE1E780A17001645BA /* RTCTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCTypes.h; sourceTree = "<group>"; };
+		58B758DF1E780A17001645BA /* RTCVideoCapturer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCVideoCapturer.h; sourceTree = "<group>"; };
+		58B758E01E780A17001645BA /* RTCVideoRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCVideoRenderer.h; sourceTree = "<group>"; };
+		58B758E11E780A17001645BA /* RTCVideoSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCVideoSource.h; sourceTree = "<group>"; };
+		58B758E21E780A17001645BA /* RTCVideoTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCVideoTrack.h; sourceTree = "<group>"; };
+		58B758E31E780A17001645BA /* SKWCallOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKWCallOption.h; sourceTree = "<group>"; };
+		58B758E41E780A17001645BA /* SKWConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKWConnection.h; sourceTree = "<group>"; };
+		58B758E51E780A17001645BA /* SKWConnectOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKWConnectOption.h; sourceTree = "<group>"; };
+		58B758E61E780A17001645BA /* SKWDataChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKWDataChannel.h; sourceTree = "<group>"; };
+		58B758E71E780A17001645BA /* SKWDataConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKWDataConnection.h; sourceTree = "<group>"; };
+		58B758E81E780A17001645BA /* SKWIceConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKWIceConfig.h; sourceTree = "<group>"; };
+		58B758E91E780A17001645BA /* SKWMediaConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKWMediaConnection.h; sourceTree = "<group>"; };
+		58B758EA1E780A17001645BA /* SKWMediaConstraints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKWMediaConstraints.h; sourceTree = "<group>"; };
+		58B758EB1E780A17001645BA /* SKWMediaStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKWMediaStream.h; sourceTree = "<group>"; };
+		58B758EC1E780A17001645BA /* SKWNavigator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKWNavigator.h; sourceTree = "<group>"; };
+		58B758ED1E780A17001645BA /* SKWPeer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKWPeer.h; sourceTree = "<group>"; };
+		58B758EE1E780A17001645BA /* SKWPeerCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKWPeerCommon.h; sourceTree = "<group>"; };
+		58B758EF1E780A17001645BA /* SKWPeerError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKWPeerError.h; sourceTree = "<group>"; };
+		58B758F01E780A17001645BA /* SKWPeerOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKWPeerOption.h; sourceTree = "<group>"; };
+		58B758F11E780A17001645BA /* SKWVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKWVideo.h; sourceTree = "<group>"; };
 		58C38C4D1E69669700B6F9AE /* ios_framework_with_skyway.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ios_framework_with_skyway.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		58C38C501E69669700B6F9AE /* ios_framework_with_skyway.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ios_framework_with_skyway.h; sourceTree = "<group>"; };
 		58C38C511E69669700B6F9AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -76,6 +166,58 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		58B7586A1E78098A001645BA /* skyway-headers */ = {
+			isa = PBXGroup;
+			children = (
+				58B758C51E780A17001645BA /* RTCAudioSource.h */,
+				58B758C61E780A17001645BA /* RTCAudioTrack.h */,
+				58B758C71E780A17001645BA /* RTCAVFoundationVideoSource.h */,
+				58B758C81E780A17001645BA /* RTCDataChannel.h */,
+				58B758C91E780A17001645BA /* RTCEAGLVideoView.h */,
+				58B758CA1E780A17001645BA /* RTCFileLogger.h */,
+				58B758CB1E780A17001645BA /* RTCI420Frame.h */,
+				58B758CC1E780A17001645BA /* RTCICECandidate.h */,
+				58B758CD1E780A17001645BA /* RTCICEServer.h */,
+				58B758CE1E780A17001645BA /* RTCLogging.h */,
+				58B758CF1E780A17001645BA /* RTCMediaConstraints.h */,
+				58B758D01E780A17001645BA /* RTCMediaSource.h */,
+				58B758D11E780A17001645BA /* RTCMediaStream.h */,
+				58B758D21E780A17001645BA /* RTCMediaStreamTrack.h */,
+				58B758D31E780A17001645BA /* RTCNSGLVideoView.h */,
+				58B758D41E780A17001645BA /* RTCOpenGLVideoRenderer.h */,
+				58B758D51E780A17001645BA /* RTCPair.h */,
+				58B758D61E780A17001645BA /* RTCPeerConnection.h */,
+				58B758D71E780A17001645BA /* RTCPeerConnectionDelegate.h */,
+				58B758D81E780A17001645BA /* RTCPeerConnectionFactory.h */,
+				58B758D91E780A17001645BA /* RTCPeerConnectionInterface.h */,
+				58B758DA1E780A17001645BA /* RTCSessionDescription.h */,
+				58B758DB1E780A17001645BA /* RTCSessionDescriptionDelegate.h */,
+				58B758DC1E780A17001645BA /* RTCStatsDelegate.h */,
+				58B758DD1E780A17001645BA /* RTCStatsReport.h */,
+				58B758DE1E780A17001645BA /* RTCTypes.h */,
+				58B758DF1E780A17001645BA /* RTCVideoCapturer.h */,
+				58B758E01E780A17001645BA /* RTCVideoRenderer.h */,
+				58B758E11E780A17001645BA /* RTCVideoSource.h */,
+				58B758E21E780A17001645BA /* RTCVideoTrack.h */,
+				58B758E31E780A17001645BA /* SKWCallOption.h */,
+				58B758E41E780A17001645BA /* SKWConnection.h */,
+				58B758E51E780A17001645BA /* SKWConnectOption.h */,
+				58B758E61E780A17001645BA /* SKWDataChannel.h */,
+				58B758E71E780A17001645BA /* SKWDataConnection.h */,
+				58B758E81E780A17001645BA /* SKWIceConfig.h */,
+				58B758E91E780A17001645BA /* SKWMediaConnection.h */,
+				58B758EA1E780A17001645BA /* SKWMediaConstraints.h */,
+				58B758EB1E780A17001645BA /* SKWMediaStream.h */,
+				58B758EC1E780A17001645BA /* SKWNavigator.h */,
+				58B758ED1E780A17001645BA /* SKWPeer.h */,
+				58B758EE1E780A17001645BA /* SKWPeerCommon.h */,
+				58B758EF1E780A17001645BA /* SKWPeerError.h */,
+				58B758F01E780A17001645BA /* SKWPeerOption.h */,
+				58B758F11E780A17001645BA /* SKWVideo.h */,
+			);
+			name = "skyway-headers";
+			sourceTree = "<group>";
+		};
 		58C38C431E69669700B6F9AE = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +241,7 @@
 		58C38C4F1E69669700B6F9AE /* ios_framework_with_skyway */ = {
 			isa = PBXGroup;
 			children = (
+				58B7586A1E78098A001645BA /* skyway-headers */,
 				58C38C501E69669700B6F9AE /* ios_framework_with_skyway.h */,
 				58C38C511E69669700B6F9AE /* Info.plist */,
 				58C38C6D1E696B3200B6F9AE /* PeerManager.swift */,
@@ -134,7 +277,52 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58B7591A1E780A17001645BA /* SKWPeer.h in Headers */,
+				58B758FC1E780A17001645BA /* RTCMediaConstraints.h in Headers */,
+				58B759081E780A17001645BA /* RTCSessionDescriptionDelegate.h in Headers */,
+				58B7590B1E780A17001645BA /* RTCTypes.h in Headers */,
+				58B759161E780A17001645BA /* SKWMediaConnection.h in Headers */,
+				58B7591D1E780A17001645BA /* SKWPeerOption.h in Headers */,
+				58B758FF1E780A17001645BA /* RTCMediaStreamTrack.h in Headers */,
+				58B759141E780A17001645BA /* SKWDataConnection.h in Headers */,
+				58B758F21E780A17001645BA /* RTCAudioSource.h in Headers */,
+				58B758F41E780A17001645BA /* RTCAVFoundationVideoSource.h in Headers */,
+				58B759061E780A17001645BA /* RTCPeerConnectionInterface.h in Headers */,
+				58B759011E780A17001645BA /* RTCOpenGLVideoRenderer.h in Headers */,
+				58B759151E780A17001645BA /* SKWIceConfig.h in Headers */,
+				58B759041E780A17001645BA /* RTCPeerConnectionDelegate.h in Headers */,
+				58B758FB1E780A17001645BA /* RTCLogging.h in Headers */,
+				58B758F61E780A17001645BA /* RTCEAGLVideoView.h in Headers */,
+				58B7590F1E780A17001645BA /* RTCVideoTrack.h in Headers */,
+				58B7590A1E780A17001645BA /* RTCStatsReport.h in Headers */,
+				58B759191E780A17001645BA /* SKWNavigator.h in Headers */,
+				58B758F31E780A17001645BA /* RTCAudioTrack.h in Headers */,
+				58B7591E1E780A17001645BA /* SKWVideo.h in Headers */,
+				58B7590E1E780A17001645BA /* RTCVideoSource.h in Headers */,
+				58B759101E780A17001645BA /* SKWCallOption.h in Headers */,
+				58B759111E780A17001645BA /* SKWConnection.h in Headers */,
+				58B759021E780A17001645BA /* RTCPair.h in Headers */,
+				58B7590C1E780A17001645BA /* RTCVideoCapturer.h in Headers */,
+				58B759001E780A17001645BA /* RTCNSGLVideoView.h in Headers */,
+				58B759181E780A17001645BA /* SKWMediaStream.h in Headers */,
+				58B758FD1E780A17001645BA /* RTCMediaSource.h in Headers */,
+				58B7591C1E780A17001645BA /* SKWPeerError.h in Headers */,
 				58C38C5E1E69669700B6F9AE /* ios_framework_with_skyway.h in Headers */,
+				58B759091E780A17001645BA /* RTCStatsDelegate.h in Headers */,
+				58B758FA1E780A17001645BA /* RTCICEServer.h in Headers */,
+				58B758FE1E780A17001645BA /* RTCMediaStream.h in Headers */,
+				58B7591B1E780A17001645BA /* SKWPeerCommon.h in Headers */,
+				58B758F51E780A17001645BA /* RTCDataChannel.h in Headers */,
+				58B759071E780A17001645BA /* RTCSessionDescription.h in Headers */,
+				58B758F71E780A17001645BA /* RTCFileLogger.h in Headers */,
+				58B7590D1E780A17001645BA /* RTCVideoRenderer.h in Headers */,
+				58B759131E780A17001645BA /* SKWDataChannel.h in Headers */,
+				58B758F91E780A17001645BA /* RTCICECandidate.h in Headers */,
+				58B759051E780A17001645BA /* RTCPeerConnectionFactory.h in Headers */,
+				58B758F81E780A17001645BA /* RTCI420Frame.h in Headers */,
+				58B759121E780A17001645BA /* SKWConnectOption.h in Headers */,
+				58B759031E780A17001645BA /* RTCPeerConnection.h in Headers */,
+				58B759171E780A17001645BA /* SKWMediaConstraints.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

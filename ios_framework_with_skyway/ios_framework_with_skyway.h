@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <SkyWay/SKWPeer.h>
+#import "SKWPeer.h"
+
 
 //! Project version number for ios_framework_with_skyway.
 FOUNDATION_EXPORT double ios_framework_with_skywayVersionNumber;
